@@ -1,2 +1,2 @@
 FROM nodered/node-red
-RUN npm install passport-ibmid-oauth2
+RUN npm install passport passport-oauth passport-ibmid-oauth2
